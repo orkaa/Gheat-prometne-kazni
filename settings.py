@@ -91,3 +91,4 @@ GHEAT_FILESYSTEM_STORAGE_DIR = '/tmp/gheat/'
 
 CACHE_BACKEND = 'memcached://127.0.0.1:11211/?timeout=30'
 
+GHEAT_STORAGE_BACKEND = 1

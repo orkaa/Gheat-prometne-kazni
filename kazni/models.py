@@ -7,5 +7,7 @@ class KazenTocka(models.Model):
     index = models.IntegerField()
     name = models.CharField(max_length=100)
     geometry = models.PointField()
+    date = models.DateTimeField()
+    penalty = models.IntegerField()
     
     objects = models.GeoManager()
